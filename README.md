@@ -1,5 +1,8 @@
 # sparton_ahrs8_driver
 
+```
+ros2 launch sparton_ahrs8_driver ahrs8.launch.py port:=/dev/ttyUSB0
+```
 ## Overview
 
 This is a ROS package for interfacing with the [Sparton AHRS-8](https://www.spartonnavex.com/product/ahrs-8/) hardware. In particular, it communicates with the sensor using NMEA protocol and publishes the IMU data as ROS sensor messages.
