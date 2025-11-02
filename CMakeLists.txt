@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(sparton_ahrs8_driver)
+project(imu_interface)
 
 # Required for Python nodes
 find_package(ament_cmake REQUIRED)

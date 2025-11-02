@@ -25,7 +25,7 @@ def generate_launch_description():
 
     # Define node
     ahrs8_node = Node(
-        package="sparton_ahrs8_driver",
+        package="imu_interface",
         executable="ahrs8_nmea.py",
         name="ahrs8_driver",
         parameters=[{

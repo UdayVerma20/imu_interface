@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>sparton_ahrs8_driver</name>
+  <name>imu_interface</name>
   <version>0.0.1</version>
   <description>ROS2 driver for the Sparton AHRS-8 IMU sensor.</description>
 
-  <maintainer email="mittalma@student.ethz.ch">Mayank Mittal</maintainer>
+  <maintainer email="johndoe@gmail.com">no_one</maintainer>
   <license>MIT</license>
 
   <!-- Build system -->
