@@ -11,7 +11,7 @@ find_package(std_msgs REQUIRED)
 # Install Python scripts
 install(
   PROGRAMS
-    scripts/ahrs8_nmea.py
+    scripts/imuPublisher.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

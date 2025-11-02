@@ -107,12 +107,12 @@ def set_all_covariance(imu_msg: Imu, covariance_matrix: list) -> None:
 
 class AHRS8Node(Node):
     def __init__(self):
-        super().__init__("ahrs8_node")
+        super().__init__("imu_node")
 
         # declare parameters with defaults
         self.declare_parameter("port", "/dev/ttyUSB0")
         self.declare_parameter("baud", 115200)
-        self.declare_parameter("frame_id", "ahrs8_imu")
+        self.declare_parameter("frame_id", "fcu")
         self.declare_parameter("topic", "imu/data")
 
         self.port = self.get_parameter("port").value

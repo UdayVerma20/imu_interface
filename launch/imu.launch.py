@@ -26,8 +26,8 @@ def generate_launch_description():
     # Define node
     ahrs8_node = Node(
         package="imu_interface",
-        executable="ahrs8_nmea.py",
-        name="ahrs8_driver",
+        executable="imuPublisher.py",
+        name="imuPublisher",
         parameters=[{
             "port": LaunchConfiguration("port"),
             "baud": LaunchConfiguration("baud"),
