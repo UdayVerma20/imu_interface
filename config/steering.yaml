@@ -1,0 +1,10 @@
+steering_publisher:
+  ros__parameters:
+    port: "/dev/ttyUSB0"
+    baudrate: 115200
+
+    steering_min: 100.0      # raw ADC minimum
+    steering_max: 900.0      # raw ADC maximum
+    angle_min_deg: -30.0     # steering wheel min (deg)
+    angle_max_deg: 30.0      # steering wheel max (deg)
+

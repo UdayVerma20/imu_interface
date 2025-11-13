@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>imu_interface</name>
+  <name>steering_interface</name>
   <version>0.0.1</version>
-  <description>ROS2 driver for the Sparton AHRS-8 IMU sensor.</description>
+  <description>ROS2 driver for the steering motor.</description>
 
   <maintainer email="johndoe@gmail.com">no_one</maintainer>
   <license>MIT</license>
@@ -16,7 +16,7 @@
   <depend>geometry_msgs</depend>
   <depend>std_msgs</depend>
 
-  <!-- Optional: tf_transformations for quaternion/euler conversions -->
+  <!-- Optional: for quaternion/euler conversions -->
   <exec_depend>python3-tf-transformations</exec_depend>
 
   <!-- Export -->
@@ -24,3 +24,4 @@
     <build_type>ament_cmake</build_type>
   </export>
 </package>
+
